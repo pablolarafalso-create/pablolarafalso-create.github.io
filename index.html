@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="Porfolio.css" />
+    </head>
+    <body>
+    <header class="navbar">
+        <div class="navbar-inner">
+        <a class="logo" href="#inicio">Pablo<span> Lara</span></a>
+        <nav id="primary-nav" class="nav" aria-label="Navegación principal" data-open="false">
+            <ul class="nav-links">
+            <li><a class="active" href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#estudios">Estudios</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-controls="primary-nav" aria-expanded="false">
+            <span class="nav-toggle-bars" aria-hidden="true"></span>
+        </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+        <div class="hero-inner">
+            <h1>Hola, soy Pablo Lara Gonzalez</h1>
+            <p class="subtitle">Desarrollador de Aplicaciones Multiplataforma y </p>
+            <div class="hero-actions">
+                <a class="btn" href="#proyectos">Ver mi trabajo</a>
+                <a class="btn btn-secondary" href="CV/CV Currículum Pablo Laral.pdf" download>Descargar CV</a>
+            </div>
+
+            <div class="hero-photo" role="img" aria-label="Foto de Pablo Lara Gonzalez">
+            <img src="Imagenes/mifoto.png" alt="Foto de Pablo Lara Gonzalez" />
+            </div>
+        </div>
+        </section>
+
+        <section id="sobre-mi" class="section">
+        <div class="section-wrap">
+            <h2 class="section-title">Sobre mí</h2>
+
+            <div class="about-grid">
+            <article class="card card-lg">
+                <h3 class="card-title">Sobre mí</h3>
+                <p class="muted">
+                Actualmente, soy estudiante del ciclo de Desarrollo de
+                Aplicaciones Multiplataforma (DAM) en ThePower. Me encuentro
+                en una etapa de formación activa, explorando con entusiasmo las
+                diversas oportunidades laborales que ofrece el sector tecnológico.
+                Mi objetivo es conectar con el ecosistema IT mientras continúo
+                fortaleciendo mis habilidades técnicas.
+                </p>
+            </article>
+
+            <aside class="card card-sm">
+                <h3 class="card-title">Social mis</h3>
+                <div class="socials">
+                <a class="social-btn" href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+                <a class="social-btn" href="https://github.com/pablolarafalso-create?tab=repositories" target="_blank" rel="noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </a>
+                </div>
+            </aside>
+            </div>
+        </div>
+        </section>
+
+        <section id="estudios" class="section">
+        <div class="section-wrap">
+            <h2 class="section-title">Dónde he estudiado</h2>
+
+            <div class="schools-grid">
+            <article class="card school-card">
+                <div class="school-media">
+                <img src="Imagenes/colegio.png" alt="imagan colegio montserrat" />
+                </div>
+                <div class="school-body">
+                <h3 class="card-title">Colegio montserrat</h3>
+                </div>
+            </article>
+
+            <article class="card school-card">
+                <div class="school-media">
+                <img src="Imagenes/thePower.png" alt="Imagen del centro de estudios 2" />
+                </div>
+                <div class="school-body">
+                <h3 class="card-title">The Power (Desarrollador de Aplicaciones Multiplataforma)</h3>
+                </div>
+            </article>
+            </div>
+        </div>
+        </section>
+
+        <section id="habilidades" class="section">
+        <div class="section-wrap">
+            <h2 class="section-title">Habilidades y competencias</h2>
+
+            <div class="skills-grid">
+            <article class="card card-lg">
+                <h3 class="card-title">Herramientas digitales</h3>
+
+                <div class="skills-block">
+                <h4 class="skills-subtitle">Programación</h4>
+                <ul class="skills-list skills-logo-list">
+                    <li class="skill-highlight">
+                    <i class="fa-brands fa-java skill-logo" aria-hidden="true"></i>
+                    <span>Java</span>
+                    </li>
+                    <li>
+                    <i class="fa-brands fa-python skill-logo" aria-hidden="true"></i>
+                    <span>Python</span>
+                    </li>
+                </ul>
+                </div>
+
+                <div class="skills-block">
+                <h4 class="skills-subtitle">Bases de datos</h4>
+                <ul class="skills-list skills-logo-list">
+                    <li class="skill-highlight">
+                    <i class="fa-solid fa-database skill-logo" aria-hidden="true"></i>
+                    <span>MySQL</span>
+                    </li>
+                </ul>
+                </div>
+
+                <div class="skills-block">
+                <h4 class="skills-subtitle">Desarrollo web</h4>
+                <ul class="skills-list skills-logo-list">
+                    <li class="skill-highlight">
+                    <i class="fa-brands fa-html5 skill-logo" aria-hidden="true"></i>
+                    <span>HTML</span>
+                    </li>
+                    <li class="skill-highlight">
+                    <i class="fa-brands fa-css3-alt skill-logo" aria-hidden="true"></i>
+                    <span>CSS</span>
+                    </li>
+                    <li>
+                    <i class="fa-brands fa-js skill-logo" aria-hidden="true"></i>
+                    <span>JavaScript</span>
+                    </li>
+                </ul>
+                </div>
+            </article>
+
+            <div class="skills-side">
+            <aside class="card card-sm">
+                <h3 class="card-title">Idiomas</h3>
+                <ul class="skills-list">
+                <li>Español (nativo)</li>
+                <li>Inglés (alto)</li>
+                </ul>
+            </aside>
+
+            <aside class="card card-sm">
+                <h3 class="card-title">Habilidades</h3>
+                <ul class="skills-list">
+                <li>Compromiso</li>
+                <li>Buena comunicación</li>
+                <li>Capacidad de aprendizaje</li>
+                <li>Responsabilidad</li>
+                </ul>
+            </aside>
+            </div>
+            </div>
+
+            <article class="card card-lg skills-objectives">
+                <h3 class="card-title">Objetivos profesionales</h3>
+                <p class="muted">
+                Desarrollarme como Desarrollador de Aplicaciones Multiplataforma, participando en proyectos donde pueda
+                aportar valor desde el análisis, el desarrollo y el mantenimiento de software, y seguir aprendiendo
+                tecnologías y buenas prácticas.
+                </p>
+                <ul class="skills-list">
+                <li>Crear aplicaciones robustas y escalables.</li>
+                <li>Mejorar en arquitectura, patrones y calidad de código.</li>
+                <li>Trabajar en equipo con metodologías ágiles y buen feedback.</li>
+                <li>Especializarme en backend, bases de datos y desarrollo web.</li>
+                </ul>
+            </article>
+        </div>
+        </section>
+
+        <section id="proyectos" class="section">
+        <div class="section-wrap">
+            <h2 class="section-title">Proyectos</h2>
+
+            <div class="projects-grid">
+                <a class="card project-card project-link" href="https://github.com/pablolarafalso-create/TrabajoIntermodular" target="_blank" rel="noreferrer">
+                <div class="project-thumb-media">
+                    <img src="Imagenes/proyectos.png" alt="Trabajos" />
+                </div>
+                <div class="project-body">
+                    <h3 class="card-title">App Gestion Dieta</h3>
+                    <p class="muted">He desarrollado una aplicación de dietas diseñada para controlar tu alimentación de forma sencilla. Con solo registrar lo que comes, la app calcula al instante tus calorías diarias y el desglose de proteínas, carbohidratos y grasas.</p>
+                </div>
+                </a>
+
+                <a class="card project-card project-link" href="https://github.com/pttr44/TeamTrip" target="_blank" rel="noreferrer">
+                <div class="project-thumb-media">
+                    <img src="Imagenes/proviajes.png" alt="Trabajos" />
+                </div>
+                <div class="project-body">
+                    <h3 class="card-title">App viajes (en proceso)</h3>
+                    <p class="muted">He creado una app de viajes diseñada para optimizar tus trayectos. Solo tienes que introducir tu destino y la aplicación te mostrará todas las alternativas disponibles (tren, avión, autobús, etc.) para llegar hasta allí.</p>
+                </div>
+                </a>
+            </div>
+        </div>
+        </section>
+
+        <section id="hobbies" class="section">
+        <div class="section-wrap">
+            <h2 class="section-title">Hobbies</h2>
+
+            <div class="projects-grid">
+            <article class="card project-card">
+            <div class="hobby-media">
+                <img src="Imagenes/rugby.png" alt="Rugby" />
+            </div>
+            <div class="project-body">
+                <h3 class="card-title">Rugby</h3>
+                <p class="muted">Juego al rugby en el Real Canoe. Mi posición es la de ala, que viene a ser el equivalente a un extremo en el fútbol: jugamos pegados a la banda y nos encargamos de correr y ensayar.</p>
+            </div>
+            </article>
+            <article class="card project-card">
+            <div class="hobby-media">
+                <img src="Imagenes/amigos.jpg" alt="Amigos" />
+            </div>
+            <div class="project-body">
+                <h3 class="card-title">Amigos</h3>
+                <p class="muted">Lo que suelo hacer con mis amigos es salir a dar vueltas por el barrio y hablar de nuestras cosas, además de hacer alguna escapada de un par de días de vez en cuando.</p>
+            </div>
+            </article>
+            <article class="card project-card">
+            <div class="hobby-media">
+                <img src="Imagenes/familia.jpg" alt="Familia" />
+            </div>
+            <div class="project-body">
+                <h3 class="card-title">Familia</h3>
+                <p class="muted">Con mi familia suelo verme casi todas las semanas para dar una vuelta o ir a comer juntos, aunque también aprovechamos para irnos de viaje en familia.</p>
+            </div>
+            </article>
+        </div>
+        </div>
+        </section>
+
+        <section id="contacto" class="section section-alt">
+        <div class="section-wrap">
+            <h2 class="section-title">Contacto</h2>
+            <p class="muted">¿Tienes un proyecto en mente? ¡Escríbeme!</p>
+            <div class="contact-chips" aria-label="Datos de contacto">
+            <div class="contact-chip">
+                <span class="chip-label">Email</span>
+                <a class="chip-value" href="mailto:pablolaraglez@gmail.com">pablolaraglez@gmail.com</a>
+            </div>
+            <div class="contact-chip">
+                <span class="chip-label">Teléfono</span>
+                <a class="chip-value" href="tel:+34669319181">+34 669 31 91 81</a>
+            </div>
+            </div>
+            <form action="https://formsubmit.co/pablolaraglez@gmail.com" method="POST" class="contact-form">
+            <input name="name" id="name" type="text" placeholder="Tu nombre" required />
+            <input name="email" id="email" type="email" placeholder="Tu email" required />
+            <textarea name="texto" id="texto" placeholder="Tu mensaje" rows="5" required></textarea>
+            <button type="submit" class="btn">Enviar mensaje</button>
+            </form>
+        </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+        <div class="footer-line" aria-hidden="true"></div>
+        <p>© 2026 Pablo Lara Gonzalez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+        const toggle = document.querySelector(".nav-toggle");
+        const nav = document.querySelector("#primary-nav");
+        const navbar = document.querySelector(".navbar");
+        if (!toggle || !nav) return;
+
+        const updateOffset = () => {
+            const height = navbar ? navbar.offsetHeight : 78;
+            document.documentElement.style.setProperty("--nav-offset", height + "px");
+        };
+
+        const closeNav = () => {
+            nav.dataset.open = "false";
+            toggle.setAttribute("aria-expanded", "false");
+            toggle.setAttribute("aria-label", "Abrir menú");
+            updateOffset();
+        };
+        const openNav = () => {
+            nav.dataset.open = "true";
+            toggle.setAttribute("aria-expanded", "true");
+            toggle.setAttribute("aria-label", "Cerrar menú");
+            updateOffset();
+        };
+
+        toggle.addEventListener("click", () => {
+            const isOpen = nav.dataset.open === "true";
+            if (isOpen) closeNav();
+            else openNav();
+        });
+
+        nav.addEventListener("click", (e) => {
+            const a = e.target.closest("a");
+            if (a) closeNav();
+        });
+
+        window.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") closeNav();
+        });
+
+        window.addEventListener("resize", () => {
+            if (window.innerWidth > 920) closeNav();
+            else updateOffset();
+        });
+
+        updateOffset();
+        })();
+    </script>
+    </body>
+</html>
